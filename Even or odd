@@ -1,0 +1,19 @@
+#include<stdio.h>
+Void main() 
+{
+int x;
+Printf(" Enter a number ");
+Scanf("%d", &x);
+Ans=check even odd(x);
+if(ans=0) 
+Printf(" Even");
+}
+Printf("odd");
+{
+int check even odd(int x) 
+{
+if(x%2==0) 
+Return(0);
+Else
+Return(1) ;
+}
